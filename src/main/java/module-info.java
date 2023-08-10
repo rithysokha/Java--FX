@@ -1,8 +1,8 @@
-module com.example.jfx {
+module calculator.calculator {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.jfx to javafx.fxml;
-    exports com.example.jfx;
+    opens calculator.calculator to javafx.fxml;
+    exports calculator.calculator;
 }
